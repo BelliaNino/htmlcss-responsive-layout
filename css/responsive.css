@@ -27,5 +27,17 @@
     .recipe-origin {
         display: block;
     }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    li {
+        flex-basis: calc(100% / 3 - (20px * 2) / 3);
+        flex-shrink: 0;
+        min-width: 180px
+    }
     
 }
