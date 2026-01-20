@@ -56,4 +56,15 @@
         display: block;
     }
     
+    .presentation img {
+        display: inline;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .presentation p {
+        overflow: hidden;
+    }
+
 }
