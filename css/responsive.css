@@ -1,5 +1,7 @@
 /* Soluzione qui */
 
+/*tablet version*/
+
 @media screen and (min-width: 767px) {
 
     #topbar {
@@ -11,6 +13,10 @@
 	align-items: center;
 	justify-content: flex-start;
 
+    }
+
+    main {
+        padding: 30px;
     }
     
 }
