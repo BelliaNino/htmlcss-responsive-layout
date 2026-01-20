@@ -16,7 +16,16 @@
     }
 
     main {
-        padding: 30px;
+        padding: 2.5rem;
+    }
+
+    h2 {
+        display: flex;
+        gap: 8px;
+        font-size: 35px;
+    }
+    .recipe-origin {
+        display: block;
     }
     
 }
