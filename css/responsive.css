@@ -39,5 +39,17 @@
         flex-shrink: 0;
         min-width: 180px
     }
+
+    .social-networks {
+        display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 5px;
+	margin-bottom: 10px;
+    }
+
+    .social-networks button {
+        padding: 0.5rem 3rem;
+    }
     
 }
