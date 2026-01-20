@@ -82,4 +82,12 @@
         gap: 0;
     }
 
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        display: flex;
+        flex-grow: 1;
+    }
 }
