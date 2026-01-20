@@ -6,12 +6,12 @@
 
     #topbar {
         height: 70px;
-	padding: 0 20px;
-	background-color: #fff;
+	    padding: 0 20px;
+	    background-color: #fff;
 
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+	    display: flex;
+	    align-items: center;
+	    justify-content: flex-start;
 
     }
 
@@ -65,6 +65,14 @@
 
     .presentation p {
         overflow: hidden;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    h2 {
+        font-size: 45px;
     }
 
 }
