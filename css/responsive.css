@@ -6,12 +6,12 @@
 
     #topbar {
         height: 70px;
-	    padding: 0 20px;
-	    background-color: #fff;
+        padding: 0 20px;
+        background-color: #fff;
 
-	    display: flex;
-	    align-items: center;
-	    justify-content: flex-start;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
 
     }
 
@@ -24,6 +24,7 @@
         gap: 8px;
         font-size: 35px;
     }
+
     .recipe-origin {
         display: block;
     }
@@ -34,7 +35,7 @@
         gap: 20px;
     }
 
-    li {
+    .quick-notes ul li {
         flex-basis: calc(100% / 3 - (20px * 2) / 3);
         flex-shrink: 0;
         min-width: 180px
@@ -42,10 +43,10 @@
 
     .social-networks {
         display: flex;
-	align-items: center;
-	justify-content: space-around;
-	gap: 5px;
-	margin-bottom: 10px;
+        align-items: center;
+        justify-content: space-around;
+        gap: 5px;
+        margin-bottom: 10px;
     }
 
     .social-networks button {
@@ -55,7 +56,7 @@
     .ads {
         display: block;
     }
-    
+
     .presentation img {
         display: inline;
         float: left;
@@ -92,13 +93,46 @@
     }
 
     .social-networks .label {
-	display: block;
-}
+        display: block;
+    }
+
     .social-networks .btn {
         display: flex;
         gap: 4px;
-        
+
     }
+
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+    }
+
+    address {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+
+    } 
+
+
 
 
 }
